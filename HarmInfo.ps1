@@ -1,0 +1,2 @@
+adb shell run-as TestHarmAndoird.TestHarmAndoird cat /data/data/TestHarmAndoird.TestHarmAndoird/files/.config/SongCacheList.json | ConvertFrom-Json | ft -Property Guid, Version, Name, Cached, Description
+adb shell run-as TestHarmAndoird.TestHarmAndoird ls -l /data/data/TestHarmAndoird.TestHarmAndoird/files/.config
